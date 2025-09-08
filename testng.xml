@@ -4,7 +4,7 @@
        
         <classes>
           
-          
+           <class name="com.wipro.CapStoneTestNG.ContactUsTest"/>
            <class name="com.wipro.CapStoneTestNG.HealthProgramsTest"/>
            <class name="com.wipro.CapStoneTestNG.HomePageTest"/>
            <class name="com.wipro.CapStoneTestNG.RegistrationTest"/>

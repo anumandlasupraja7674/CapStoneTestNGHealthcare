@@ -1,61 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-08T13:29:55 IST" name="Default suite" finished-at="2025-09-08T13:31:52 IST" duration-ms="117334">
+  <suite started-at="2025-09-08T19:08:16 IST" name="Default suite" finished-at="2025-09-08T19:08:25 IST" duration-ms="9435">
     <groups>
     </groups>
-    <test started-at="2025-09-08T13:29:55 IST" name="Default test" finished-at="2025-09-08T13:31:52 IST" duration-ms="117334">
-      <class name="com.wipro.CapStoneTestNG.HealthProgramsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.wipro.CapStoneTestNG.HealthProgramsTest@298a5e20]" started-at="2025-09-08T13:29:55 IST" name="setUp" finished-at="2025-09-08T13:29:58 IST" duration-ms="3160" status="PASS">
+    <test started-at="2025-09-08T19:08:16 IST" name="Default test" finished-at="2025-09-08T19:08:25 IST" duration-ms="9435">
+      <class name="com.wipro.CapStoneTestNG.InvalidRegi">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.wipro.CapStoneTestNG.InvalidRegi@4be29ed9]" started-at="2025-09-08T19:08:16 IST" name="setUp" finished-at="2025-09-08T19:08:18 IST" duration-ms="2441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAHECScholars()[pri:0, instance:com.wipro.CapStoneTestNG.HealthProgramsTest@298a5e20]" started-at="2025-09-08T13:29:58 IST" name="testAHECScholars" description="Verify AHEC Scholars Program" finished-at="2025-09-08T13:30:19 IST" duration-ms="21284" status="PASS">
+        <test-method signature="testInvalidRegistration()[pri:1, instance:com.wipro.CapStoneTestNG.InvalidRegi@4be29ed9]" started-at="2025-09-08T19:08:18 IST" name="testInvalidRegistration" finished-at="2025-09-08T19:08:25 IST" duration-ms="6928" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAHECScholars -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.wipro.CapStoneTestNG.HealthProgramsTest@298a5e20]" started-at="2025-09-08T13:30:19 IST" name="tearDown" finished-at="2025-09-08T13:30:20 IST" duration-ms="417" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.wipro.CapStoneTestNG.HealthProgramsTest@298a5e20]" started-at="2025-09-08T13:30:20 IST" name="setUp" finished-at="2025-09-08T13:30:39 IST" duration-ms="18831" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testFlorida()[pri:0, instance:com.wipro.CapStoneTestNG.HealthProgramsTest@298a5e20]" started-at="2025-09-08T13:30:39 IST" name="testFlorida" description="Verify Covering Florida Program" finished-at="2025-09-08T13:31:01 IST" duration-ms="22461" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFlorida -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.wipro.CapStoneTestNG.HealthProgramsTest@298a5e20]" started-at="2025-09-08T13:31:01 IST" name="tearDown" finished-at="2025-09-08T13:31:02 IST" duration-ms="500" status="PASS">
+        </test-method> <!-- testInvalidRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.wipro.CapStoneTestNG.InvalidRegi@4be29ed9]" started-at="2025-09-08T19:08:25 IST" name="tearDown" finished-at="2025-09-08T19:08:25 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.wipro.CapStoneTestNG.HealthProgramsTest@298a5e20]" started-at="2025-09-08T13:31:02 IST" name="setUp" finished-at="2025-09-08T13:31:23 IST" duration-ms="21423" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testHealthyAging()[pri:0, instance:com.wipro.CapStoneTestNG.HealthProgramsTest@298a5e20]" started-at="2025-09-08T13:31:23 IST" name="testHealthyAging" description="Verify Healthy Aging Program" finished-at="2025-09-08T13:31:29 IST" duration-ms="5942" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testHealthyAging -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.wipro.CapStoneTestNG.HealthProgramsTest@298a5e20]" started-at="2025-09-08T13:31:29 IST" name="tearDown" finished-at="2025-09-08T13:31:29 IST" duration-ms="377" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.wipro.CapStoneTestNG.HealthProgramsTest@298a5e20]" started-at="2025-09-08T13:31:29 IST" name="setUp" finished-at="2025-09-08T13:31:45 IST" duration-ms="15161" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testQuitTobacco()[pri:0, instance:com.wipro.CapStoneTestNG.HealthProgramsTest@298a5e20]" started-at="2025-09-08T13:31:45 IST" name="testQuitTobacco" description="Verify Quit Tobacco Program" finished-at="2025-09-08T13:31:52 IST" duration-ms="7292" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testQuitTobacco -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.wipro.CapStoneTestNG.HealthProgramsTest@298a5e20]" started-at="2025-09-08T13:31:52 IST" name="tearDown" finished-at="2025-09-08T13:31:52 IST" duration-ms="396" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.wipro.CapStoneTestNG.HealthProgramsTest -->
+      </class> <!-- com.wipro.CapStoneTestNG.InvalidRegi -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

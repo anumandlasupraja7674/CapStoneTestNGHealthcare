@@ -34,15 +34,23 @@ public class RegistrationTest {
         driver.findElement(By.id("reg_username")).sendKeys("newuser123");
         driver.findElement(By.id("reg_email")).sendKeys(email);
         driver.findElement(By.id("reg_password")).sendKeys("NewUser@123");
+        System.out.println("✅ Registration success scenario passed with email: " + email);
         
-        driver.quit();
+
+        driver.findElement(By.xpath("//input[@id='username']")).sendKeys(email);
+        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("NewUser@123");
+        
+        
+        
+        System.out.println("login success scenario passed with email: " + email);
+       
 
        
 
-        System.out.println("✅ Registration success scenario passed with email: " + email);
+        
        
     }
-
+    
     
     @AfterClass
     public void tearDown() {

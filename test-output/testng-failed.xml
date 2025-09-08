@@ -3,15 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.wipro.CapStoneTestNG.HealthProgramsTest">
+      <class name="com.wipro.CapStoneTestNG.HomePageTest">
         <methods>
-          <include name="testQuitTobacco"/>
+          <include name="clickAHECScholars"/>
           <include name="setUp"/>
-          <include name="testFlorida"/>
-          <include name="testHealthyAging"/>
-          <include name="testAHECScholars"/>
+          <include name="tearDown"/>
+          <include name="clickQuitTobacco"/>
+          <include name="clickContactIcon"/>
+          <include name="clickHealthInsurance"/>
         </methods>
-      </class> <!-- com.wipro.CapStoneTestNG.HealthProgramsTest -->
+      </class> <!-- com.wipro.CapStoneTestNG.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

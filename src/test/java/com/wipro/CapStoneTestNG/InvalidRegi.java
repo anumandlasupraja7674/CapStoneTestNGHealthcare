@@ -27,14 +27,19 @@ public class InvalidRegi {
 
     
 
-    @Test(enabled=false)
+    @Test(priority=1)
     public void testInvalidRegistration() {
         driver.get("https://westfloridaahec.org/my-account/");
 
         driver.findElement(By.id("reg_username")).sendKeys("user123");
         driver.findElement(By.id("reg_email")).sendKeys("notanemail");
         driver.findElement(By.id("reg_password")).sendKeys("Pass123");
-        System.out.println("✅ Registration success scenario passed with invalid email");
+        System.out.println(" Registration success scenario passed with invalid email");
+        
+        driver.findElement(By.xpath("//input[@id='username']")).sendKeys("notanemail");
+        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("NewUser@123");
+        
+        
        driver.quit();
     }
 
